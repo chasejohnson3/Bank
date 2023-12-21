@@ -41,9 +41,9 @@ class Game:
 				self.players.append(RollCountPlayer(self, randrange(20)+3))
 			else:
 				self.players.append(ScoreCountPlayer(self, randrange(20) * 50 ))
-	def refreshPlayerPool(self):
+#	def refreshPlayerPool(self):
 
-	def selectPlayers(self):
+#	def selectPlayers(self):
 		 
 		
 	def playGame(self):
